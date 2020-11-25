@@ -5,10 +5,17 @@
   --accent-color-menu-buttons: #ffffff;
 }
 body {
-  background-color: #e5e5e5;
   font-family: var(--main-font);
 }
-.link {
+.header {
+  background-color: #ffffff;
+}
+.solutions,
+.principles,
+.work {
+  background-color: #e5e5e5;
+}
+. .link {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -100,6 +107,9 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.team {
+  background-color: #f5f4fa;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -153,6 +163,9 @@ body {
   text-decoration: none;
 }
 /* ==========PORTFOLIO===(Стили Header and footer  уже заданы выше)=============== */
+.portfolio {
+  background-color: #e5e5e5;
+}
 .menu-btn {
   font-style: normal;
   font-weight: 500;
