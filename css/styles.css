@@ -4,9 +4,11 @@
   --accent-color: #2196f3;
   --accent-color-menu-buttons: #ffffff;
 }
+/* ========HEADER========= */
 body {
   font-family: var(--main-font);
 }
+/* ========HEADER========= */
 .header {
   background-color: #ffffff;
 }
@@ -15,13 +17,23 @@ body {
 .work {
   background-color: #e5e5e5;
 }
+/* var(--secondary-font) */
 .link {
   font-family: var(--secondary-font);
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  /* font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em; */
 }
 .black {
   color: black;
@@ -56,6 +68,11 @@ body {
   font-style: normal;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
+}
+.navigation > .link,
+.navigation-list-link,
+.footer > .link {
   text-decoration: none;
 }
 .solutions {
